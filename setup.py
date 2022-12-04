@@ -24,5 +24,5 @@ setup(
     author='Adrian Halarewicz',  # Substitute your name
     author_email='alhalarewicz@gmail.com',  # Substitute your email
     license='MIT',
-    packages=['qrcode'],
+    packages=['qrcard'],
 )
