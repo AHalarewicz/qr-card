@@ -1,5 +1,4 @@
 certifi==2020.6.20
 pypandoc==1.4
-pyqrcode
-pypng
-
+pypng==0.20220715.0
+PyQRCode==1.2.1
