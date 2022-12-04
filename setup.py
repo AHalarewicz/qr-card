@@ -12,7 +12,7 @@ def readme():
 
 
 setup(
-    name='qrcode',
+    name='qrcard',
     version='0.1',
     description='Generate QR Codes for cards.',
     long_description=readme(),
