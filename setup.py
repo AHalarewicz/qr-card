@@ -25,4 +25,7 @@ setup(
     author_email='alhalarewicz@gmail.com',  # Substitute your email
     license='MIT',
     packages=['qrcard'],
+    install_requires=[
+        'pypandoc>=1.4'
+    ],
 )
