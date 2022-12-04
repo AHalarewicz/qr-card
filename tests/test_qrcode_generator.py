@@ -1,8 +1,6 @@
 from qrcard.generate_qrcode import generate_and_save_qrcode
 from os.path import exists
 
-
-
 def test_generate_and_save_qrcode():
 
 	generate_and_save_qrcode("https://github.com/AHalarewicz/qr-card",
