@@ -1,4 +1,7 @@
 import logging
+import pyqrcode
+import png
+from pyqrcode import QRCode
 
 def generate_and_save_qrcode(url_string="google.com", 
 							 qrcode_filename="qr_code.png",
@@ -26,4 +29,4 @@ def generate_and_save_qrcode(url_string="google.com",
 	url = pyqrcode.create(url_string)
 
 	# Create and save the png file with the specified name
-	url.png(qrcode_filename, scale)
+	url.png(qrcode_filename, qrcode_scale)
