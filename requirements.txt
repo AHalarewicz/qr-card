@@ -1,3 +1,5 @@
 certifi==2020.6.20
 pypandoc==1.4
--e git+git@github.com:AHalarewicz/qr-card.git@69ed3ec8ecb424765222fa67b836af31f8a822e3#egg=qrcard
+pyqrcode
+pypng
+
