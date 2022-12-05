@@ -1,4 +1,17 @@
+atomicwrites==1.4.1
+attrs==22.1.0
 certifi==2020.6.20
+Click==7.0
+importlib-metadata==2.1.3
+more-itertools==8.14.0
+pathlib2==2.3.7.post1
+pluggy==0.13.1
+py==1.11.0
 pypandoc==1.4
 pypng==0.20220715.0
 PyQRCode==1.2.1
+pytest==4.3.1
+pytest-runner==4.4
+-e git+git@github.com:AHalarewicz/qr-card.git@7e8112011de08d83a81bdab0a2944905d2fe0644#egg=qrcard
+six==1.16.0
+zipp==1.2.0
