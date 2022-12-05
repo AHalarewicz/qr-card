@@ -24,6 +24,6 @@ logging.basicConfig(
               prompt='Scale factor for QR Code size (integer).',
               help='Default value is 6.')
 
-def generate_qrcode(url_string="instagram.com", qrcode_filename="tests/command_line_test.png", qrcode_scale=6):
+def generate_qrcode(url_string="instagram.com", qrcode_filename="qrcodes/qrcode.png", qrcode_scale=6):
     pipelines.run_generate_qrcode(url_string, qrcode_filename, qrcode_scale)
     
