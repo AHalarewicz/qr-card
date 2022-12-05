@@ -19,10 +19,10 @@ logging.basicConfig(
 #               type=str,
 #               prompt='Save QR Code png file as filepath.',
 #               help='Provide the name and filepath for saving the QR Code png.')
-@click.option('--qrcode_scale',
-              type=int,
-              prompt='Scale factor for QR Code size (integer).',
-              help='Default value is 6.')
+# @click.option('--qrcode_scale',
+#               type=int,
+#               prompt='Scale factor for QR Code size (integer).',
+#               help='Default value is 6.')
 
 def generate_qrcode(url_string="instagram.com", qrcode_filename="qrcodes/qrcode.png", qrcode_scale=6):
     pipelines.run_generate_qrcode(url_string, qrcode_filename, qrcode_scale)
