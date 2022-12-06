@@ -10,12 +10,18 @@ def generate_and_save_qrcode(url_string="google.com",
 	"""Create and save a QRCode from a provided url string
 		Parameters
 	    ----------
-	    df : pandas.DataFrame
-	        Data-frame containing the column `Name`
+	    url_string : str
+	    	url of redirect site.
+
+	    qrcode_filename : str
+	    	the name for QR Code PNG file.
+
+	    qrcode_scale : int
+	    	the scale factor for the QR Code.
+	    	
 	    Returns
 	    -------
-	    pandas.DataFrame
-	        Data-frame with additional column with titles
+	    Saves a QR to the local directory
 	    """	
 
 
