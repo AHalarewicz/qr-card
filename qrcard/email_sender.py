@@ -1,3 +1,6 @@
+import smtplib
+from email.message import EmailMessage
+
 def send_email(subject, body, to):
 	"""Send an SMS to a specified number on a specified carrier.
 

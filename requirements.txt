@@ -1,5 +1,5 @@
 attrs==22.1.0
-certifi @ file:///croot/certifi_1665076670883/work/certifi
+certifi==2022.5.18.1
 click==8.1.3
 exceptiongroup==1.0.4
 iniconfig==1.1.1
@@ -7,7 +7,8 @@ packaging==21.3
 pluggy==1.0.0
 pypandoc==1.10
 pyparsing==3.0.9
-pytest==7.2.0
-pytest-runner==6.0.0
--e git+ssh://git@github.com/AHalarewicz/qr-card.git@e9fa3c885e60562cf822745275771752382f64ed#egg=qrcard
+pypng==0.20220715.0
+PyQRCode==1.2.1
+pytest==4.3.1
+pytest-runner==4.4
 tomli==2.0.1
